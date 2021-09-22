@@ -69,7 +69,7 @@ int getLargest(int v[], int size)
     }
     return largest; // return the largest value
 
-    cout << "Hello World "; << endl;
+    cout << "This shit is great ; << endl;
 }
 
 
