@@ -68,6 +68,8 @@ int getLargest(int v[], int size)
             largest = v[i];
     }
     return largest; // return the largest value
+
+    cout << "Hello World "; << endl;
 }
 
 
