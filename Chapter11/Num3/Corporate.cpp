@@ -100,21 +100,13 @@ void Display(CompanyData array[], int SIZE)
 
 /*
 Corporate Sales Data
-Write a program that uses a structure named CorpData to store the following
-information on a company division:
-	Division name (such as East, West, North, or South)
-	First quarter sales
-	Second quarter sales
-	Third quarter sales
-	Fourth quarter sales
-	Total annual sales
-	Average quarterly sales.
-Include a constructor that allows the division name and four quarterly sales
-amounts to be specified at the time a CorpData variable is created.
-The program should create four variables of this structure, each representing one
-of the following corporate divisions: East, West, North, and South. Each variable
-should be passed in turn to a function that calculates and stores the total sales
-and average quarterly sales for that division. Once this has been done for each
-division, each variable should be passed in turn to a function that displays the
-division name, total sales, and quarterly average.
+Write a program that uses a structure to store the following data on a company division:
+Division Name (such as East, West, North, or South) First-Quarter Sales
+Second-Quarter Sales
+Third-Quarter Sales
+Fourth-Quarter Sales Total Annual Sales Average Quarterly Sales
+The program should use four variables of this structure. Each variable should represent one of the following corporate divisions: East, West, North, and South.
+The user should be asked for the four quarters’ sales figures for each division. 
+Each division’s total and average sales should be calculated and stored in the appropriate member of each structure variable. 
+These figures should then be displayed on the screen.
 */
