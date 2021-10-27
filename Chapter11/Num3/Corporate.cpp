@@ -29,8 +29,7 @@ int main()
     cout << endl; //formatting
 
     Display(array, NUM_DIVISION); //Function will display the division name, total sales and average QT sales
-
-
+    
     return 0;
 }
 
@@ -73,7 +72,7 @@ void TotalandAverage(CompanyData array[], int SIZE)
     {
         array[i].TotalAnnualSales = array[i].FirstQTSales + array[i].SecondQTSalesl + array[i].ThirdQTSales + array[i].FouthQTSales; //Adds to the total member
 
-         array[i].AverageQTSales = array[i].TotalAnnualSales / SIZE; //Finds the average
+        array[i].AverageQTSales = array[i].TotalAnnualSales / SIZE; //Finds the average
     }
    
 }
