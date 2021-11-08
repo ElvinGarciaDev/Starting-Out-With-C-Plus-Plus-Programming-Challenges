@@ -8,7 +8,7 @@ using namespace std;
 //*******************
 Date::Date()
 {
-    SetName();
+    SetName(); //Call the setName function in the constructor because it will assign the values to the array when an object is created.
 }
 
 //***********************

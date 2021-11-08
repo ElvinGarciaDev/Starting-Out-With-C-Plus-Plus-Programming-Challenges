@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    Date time(02,05,1997);
+    Date time(02,05,1997); //Creat an object and pass day, month, year as arguments
     
     //call the getter functions to display the date in mm/dd/yyyy format
     cout << time.GetMonth() << "/" << time.GetDay() << "/" << time.GetYear() << endl;
