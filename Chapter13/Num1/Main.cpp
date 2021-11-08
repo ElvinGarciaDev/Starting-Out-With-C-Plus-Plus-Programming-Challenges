@@ -9,5 +9,11 @@ int main()
     //call the getter functions to display the date in mm/dd/yyyy format
     cout << time.GetMonth() << "/" << time.GetDay() << "/" << time.GetYear() << endl;
 
+    //Call the getter Function showdate() to display the date in month/dd/yyyy format
+    cout << time.ShowDate2() << " " << time.GetDay() << ", " << time.GetYear() << endl;
+
+    //Display in dd/month/yyyy format
+    cout << time.GetDay() << " " << time.ShowDate2() << " " << time.GetYear() << endl;
+
     return 0;
 }
