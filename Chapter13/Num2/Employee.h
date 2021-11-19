@@ -13,7 +13,5 @@ private:
 
 public:
     Employee(string name, int ID, string D, string P); //constructor accepts mployee’s name, employee’s ID number, department, and position.
-    //Employee(string n, int id, string d = " ", string p = " ");                              //The department and position fields should be assigned an empty string ( "" ).
-    //Employee(string name = " ", int id = 0, string department = " ", string position = " "); //empty string to the name, department, and position member variables, 0 to ID
 };
 #endif
